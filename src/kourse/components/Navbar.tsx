@@ -25,7 +25,7 @@ export default function KourseNavbar() {
       </div>
       <div className="flex lg:hidden flex-row items-center w-full justify-between">
         <h1 className="font-semibold font-sans3 text-2xl text-white">Kourse</h1>
-        <button className="text-whiterounded-lg px-6 py-2 font-semibold">
+        <button className="text-whiterounded-lg font-semibold">
             <FiAlignJustify color="white" size={24} />
         </button>
       </div>
