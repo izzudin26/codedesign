@@ -10,6 +10,7 @@ export default {
       fontFamily: {
         sans3: ["Source Sans 3", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        notoSans: ["Noto Sans", "sans-serif"],
       },
     },
   },
