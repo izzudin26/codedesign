@@ -1,0 +1,11 @@
+.btn-flat {
+  @apply font-semibold px-8 py-3 rounded-full font-notoSans;
+}
+
+.badge {
+    @apply p-2 rounded-xl bg-gradient-to-b from-white/10 to-white/0;
+}
+
+.badge-inside {
+    @apply p-4 rounded-lg bg-white/10
+}
