@@ -8,7 +8,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.join(__dirname, "src"),
-      '@kourse': path.join(__dirname, "src/kourse")
+      '@kourse': path.join(__dirname, "src/kourse"),
+      '@digidaw': path.join(__dirname, "src/digidaw")
     },
   },
 });

@@ -23,7 +23,8 @@
     /* Alias */
     "paths": {
       "@/*": ["./src/*"],
-      "@kourse/*": ["./src/kourse/*"]
+      "@kourse/*": ["./src/kourse/*"],
+      "@digidaw/*": ["./src/digidaw/*"]
     }
   },
   "include": ["src"]
