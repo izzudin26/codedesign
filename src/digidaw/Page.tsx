@@ -1,6 +1,10 @@
 import DigidawNavbar from "@digidaw/Components/Navbar";
 import "@digidaw/Assets/digidaw.css";
 import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
+import DigidawCardYellow from "@digidaw/Components/CardYellow";
+// import DigidawThreeWhiteCard from "@digidaw/Components/ThreeWhiteCard";
+// import DigidawPurpleCard from "@digidaw/Components/PurpleCard";
+import DigidawIdentityGreenCard from "@digidaw/Components/IdentityGreenCard";
 
 export default function DigidawPage() {
   return (
@@ -42,6 +46,16 @@ export default function DigidawPage() {
                   work with.
                 </p>
               </div>
+            </div>
+          </div>
+          {/* Cards */}
+          <div className="flex relative w-full">
+            <div className="w-1/2">
+              <DigidawCardYellow />
+            </div>
+            <div className="w-1/2">
+              <DigidawIdentityGreenCard />
+              {/* <DigidawThreeWhiteCard /> */}
             </div>
           </div>
         </div>
