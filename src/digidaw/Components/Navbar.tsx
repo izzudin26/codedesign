@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "@digidaw/Assets/digidaw.css";
+import { HiBars2 } from "react-icons/hi2";
 
 export default function DigidawNavbar() {
   const [menus] = useState([
@@ -23,7 +24,7 @@ export default function DigidawNavbar() {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-between">
+      <div className="hidden lg:flex flex-row items-center justify-between">
         <div className="flex flex-row items-center">
           <h1 className="font-semibold text-xl text-white font-notoSans">
             digidaw
@@ -42,6 +43,16 @@ export default function DigidawNavbar() {
           </div>
         </div>
         <button className="btn-flat bg-white text-black">Sign In</button>
+      </div>
+      <div className="lg:hidden flex flex-row items-center justify-between">
+        <div className="flex flex-row items-center">
+          <h1 className="font-semibold text-xl text-white font-notoSans">
+            digidaw
+          </h1>
+        </div>
+        <button className="p-2 rounded-lg ring-1 ring-white">
+          <HiBars2 size={24} color="white" />
+        </button>
       </div>
     </>
   );
